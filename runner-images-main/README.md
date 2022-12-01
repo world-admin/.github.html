@@ -148,7 +148,7 @@ The availability of images for GitHub Actions and Azure DevOps is the same. Howe
 <details>
    <summary><b><i>What image version is used in my build?</b></i></summary>
 
-Usually, image deployment takes 2-3 hours, and documentation in the `main` branch is only updated when deployment is finished. To find out which image version and what software versions are used in a specific build, see `Set up job` (GitHub Actions) or `Initialize job` (Azure DevOps) step log.
+Usually, image deployment takes 2-3 days, and documentation in the `main` branch is only updated when deployment is finished. To find out which image version and what software versions are used in a specific build, see `Set up job` (GitHub Actions) or `Initialize job` (Azure DevOps) step log.
 <img width="1440" alt="actions-runner-image" src="https://user-images.githubusercontent.com/56982181/169595536-91a8a79b-d5e0-47d1-a736-510cff6cfb83.png">
 </details>
 
@@ -176,4 +176,3 @@ For some tools, we always install the latest at the time of the deployment; for 
    <summary><b><i>How do I request that a new tool be pre-installed on the image?</b></i></summary>
 Please create an issue and get an approval from us to add this tool to the image before creating the pull request.
 </details>
-
