@@ -4,6 +4,7 @@
 # https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
 
 version: 2
+Permissions: "write-all"
 updates:
   - package-ecosystem: "node" # See documentation for possible values
     permissions: "write-all"
